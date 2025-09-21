@@ -1,0 +1,53 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Golang
+*.exe
+*.test
+*.out
+*.log
+*.prof
+*.coverage
+*.tmp
+*.bin
+*.dat
+*.swp
+/vendor/
+/coverage/
+
+# Git LFS
+*.lfs*
+
+# Кэш и временные файлы
+*.lock
+*.env
+*.bak
+*.tmp
+*.cache
+*.pid
+
+# Результаты сборки
+bin/
+build/
+dist/
+artifacts/
+target/
+
+# IDE Related
+*.orig
+*.ipr
+*.iws
+*.swp
+.vscode/
+*.code-workspace
+
+# Другое
+logs/
+node_modules/
+npm-debug.log*
